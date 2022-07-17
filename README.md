@@ -3,3 +3,13 @@
 
 Telegram bot for crypto exchange. This is my freelance project.
 ------------------------------------
+
+### pip
+##### pip install aiogram
+##### pip install requests
+##### pip install python-dotenv
+
+### Description
+##### я создал файл .env куда вписал токен бота (TOKEN) и api (API_KEY) для отслеживания курса монет.
+    TOKEN = ''
+    API_KEY = ''
