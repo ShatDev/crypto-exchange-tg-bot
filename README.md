@@ -13,3 +13,27 @@ Telegram bot for crypto exchange. This is my freelance project.
 ##### я создал файл .env куда вписал токен бота (TOKEN) и api (API_KEY) для отслеживания курса монет.
     TOKEN = ''
     API_KEY = ''
+
+#### Используется встроенная в Python база данных SQLite3. Выбираете токен, который отдаёте; токен, который получаете; указываете адрес кошелька; количество токенов, которые отдаёте и создаёте заявку с уникальным номером. В бд отправляется в виде currency:receiving_currency;address;amount;receiving_amount;status;id (status - создана; оплачена; отменена, id - номер заявки)
+
+### Коротко о боте в скриншотах:
+![image](https://user-images.githubusercontent.com/66784042/179423507-e2ecc401-1f7e-433e-904e-0369c5e4eb58.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423523-a7bc3187-568d-4f2d-b21b-a2f9ab18400f.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423532-705826a2-a6c6-4b85-876a-71a8ff1d53a8.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423535-351a6793-3417-4188-8c3f-f4bbe0c24d6d.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423543-fe459434-b333-4481-a508-6f5c92772a5a.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423549-c629aea6-76a2-4f6c-9811-2360b97895a6.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423553-346cba7b-fb43-41ae-bf1a-8257d3cf6995.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423562-7b74399b-8807-46c6-af6c-225b030dc5af.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179423765-53f5b5ed-fcf3-4212-a873-bca061af893d.png)
+
+# Спасибо за внимание!
+![heart](https://media1.giphy.com/media/jUKyEtnRx3OZQmQb2Q/giphy.gif?cid=6c09b952nxrtz7dsdw1y0lm418tip2kv83jlp5txzqelw9xt&rid=giphy.gif&ct=s)
