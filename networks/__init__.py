@@ -1,0 +1,2 @@
+from networks.making_tr_bep import register_addramount_bep
+from networks.making_tr_trx import register_addramount_trx
