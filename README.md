@@ -14,7 +14,7 @@ Telegram bot for crypto exchange. This is my freelance project.
     TOKEN = ''
     API_KEY = ''
 
-#### Используется встроенная в Python база данных SQLite3. Выбираете токен, который отдаёте; токен, который получаете; указываете адрес кошелька; количество токенов, которые отдаёте и создаёте заявку с уникальным номером. В бд отправляется в виде currency:receiving_currency;address;amount;receiving_amount;status;id (status - создана; оплачена; отменена, id - номер заявки)
+#### Используется встроенная в Python база данных SQLite3. Выбираете токен, который отдаёте; токен, который получаете; указываете адрес кошелька; количество токенов, которые отдаёте и создаёте заявку с уникальным номером. В бд отправляется в виде currency:receiving_currency:address:amount:receiving_amount:status:id (status - создана; оплачена; отменена, id - номер заявки)
 
 ### Коротко о боте в скриншотах:
 ![image](https://user-images.githubusercontent.com/66784042/179423507-e2ecc401-1f7e-433e-904e-0369c5e4eb58.png)
@@ -34,6 +34,8 @@ Telegram bot for crypto exchange. This is my freelance project.
 ![image](https://user-images.githubusercontent.com/66784042/179423562-7b74399b-8807-46c6-af6c-225b030dc5af.png)
 
 ![image](https://user-images.githubusercontent.com/66784042/179423765-53f5b5ed-fcf3-4212-a873-bca061af893d.png)
+
+![image](https://user-images.githubusercontent.com/66784042/179428786-f6ac6c8d-90b8-4af9-90f0-c5baee05e8d6.png)
 
 # Спасибо за внимание!
 ![heart](https://media1.giphy.com/media/jUKyEtnRx3OZQmQb2Q/giphy.gif?cid=6c09b952nxrtz7dsdw1y0lm418tip2kv83jlp5txzqelw9xt&rid=giphy.gif&ct=s)
